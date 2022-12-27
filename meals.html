@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEAL AT BERTH</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+           
+        }
+        .grid-container{
+            background-color: black;
+            background-image: url(images.jpeg);
+            
+            display:grid;
+            grid-template-columns: auto ;
+        }
+       
+         header{
+         margin: 0px;
+         padding:0;
+         background-color: beige;
+         color:rgb(253, 240, 205);
+         height: 3vh;
+         }
+    
+    
+        h1{
+            background-color: rgb(75, 12, 12);
+            height:10vh;
+            color: beige;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 50px;
+        }
+        .form{
+            background-color: rgb(199, 125, 28);
+            width:50vw;
+            height:40vh;
+        }
+        .intro{
+            padding: 10px;
+            margin:0px;
+            background-color: burlywood;
+            
+        }
+        .menu{
+            background-color: azure;
+        }
+        footer{
+    background-color: rgb(86, 7, 7);
+    color:white;
+    text-align: center;
+   
+    width:100%;
+    bottom: 0;
+    border: solid  white;
+    border-collapse: collapse;
+}
+.cards {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(244, 234, 208);
+            display: inline-block;
+            text-align: center;
+            border-radius: 5px;
+            margin: 60px;
+            color: brown;
+            margin-left: 60px;
+            margin-right: 40px;
+            box-shadow: 2px 2px 10px rgba(156, 151, 151, 0.618);
+            border: solid  white;
+         border-collapse: collapse;
+        }
+        
+        
+        .des {
+            font-size: 18px;
+        }
+        #scroll{
+            background-color:rgb(241, 160, 113);
+            color: rgb(97, 13, 13);
+        }
+        
+    
+        
+    </style>
+</head>
+<body>
+    <header>
+        <pre>    <a href="main.html">HOME</a>    <a href="meals.html">MEALS</a>     <a href="holiday.html">HOLIDAY PACKAGES</a>     <a href="service.html">SERVICE AT STATION</a>    <a href="contact.html">CONTACT US</a>   <a href="login.html">LOGIN</a></pre> 
+     </header>
+
+    
+     <div class="banner">
+     <h1><center>Enjoy Exquisite delicacies at your seat</center></h1>
+     <marquee id="scroll" width="100%"direction="left"
+     scrollamount="10">
+     MAKE YOUR HOLIDAYS MEMORABLE WITH TRAVELLING !!! : INDIAN RAILWAYS
+     </marquee>
+     <img src="food.webp" alt="tasty delicacies" height="200px" width="1230px">
+     <p class="intro">Hello, foodie.<br> Are you on board a train or have a ticket for the next day's train? Are you wondering about what you'll eat on the train journey? Don't worry; RailRecipe is an E-catering platform that will take your train journey to the next level by providing great meals. RailRecipe is like a buddy for train travellers as it can make your train journey feel like your home by providing delicious food at the right time. The food and service at RailRecipes are like that of a family man who cooks and serves you. The food service of RailRecipe creates an enjoyable experience for train passengers by providing Indian food.</p>
+     <p class="intro">Railrecipe is not an ordinary E-catering service platform; it's a well-mannered or, can say, organized E-catering service on the train. It is excellent food, tea, coffee, or any other eatable item delivery platform. No passengers have to worry about food quality because RailRecipe is here to deliver high-quality food. You will find unlimited food options on the RailRecipe food menu. RailRecipe delivers healthy food to the passenger's preferred station.</p>
+     <p class="intro">You will receive your ordered meal within a few minutes on any train, at any time, at any railway station and on any platform. When ordering food from RailRecipe, you can choose not only the food item and quantity but also you can select the station name to which you want the meal delivered. On Group or Bulk food orders, RailRecipe gives a massive discount. RailRecipe system of food delivery in train is completely AI-based.</p>
+    </div>
+     <hr>
+     <div class="grid-container">
+
+     <div class="form">
+        <h2>SEARCH FOOD AVAILABILITY IN YOUR TRAIN</h2><br>
+        <form>
+        
+            
+            <label for="pnr">Enter your PNR number:</label><br><br>
+            <input type="text" placeholder="Enter 8-digit PNR number" ><br><br>
+            <label for="train">Where do you want to order</label><br><br>
+            <input type="text" placeholder="Enter Station name"><br><br>
+            <input type="submit" value="Proceed"
+    
+        </form>
+     </div>
+     
+    </div>
+    <!-- cards-1 -->
+    <div class="cards">
+
+        <div class="image">
+            <img src="https://th.bing.com/th/id/OIP.K6Im56uWFaiFd3MiylaCDAHaFM?w=216&h=180&c=7&r=0&o=5&pid=1.7">
+        </div>
+        <div class="title ">
+           <h1>PIZZA</h1>
+
+        </div>
+        <div class="des ">
+            <p><br>Veg-₹119 &nbsp&nbsp&nbsp non-veg-₹149</p><br>
+            <button>Buy now</button>
+		<button class="cart-increment">Add to cart</button>
+
+        </div>
+    </div>
+    <!-- cards 2-->
+    <div class="cards">
+
+        <div class="image">
+            <img src="https://th.bing.com/th/id/OIP.8JLUBQsjGUM4xBzdn7j2uQHaE8?w=261&h=180&c=7&r=0&o=5&pid=1.7">
+        </div>
+        <div class="title ">
+            <h1>Thali</h1>
+
+        </div>
+        <div class="des ">
+            <p>Thali only at ₹99</p><br>
+            <button>Buy now</button>
+            <button class="cart-increment">Add to cart</button><br>
+
+        </div>
+    </div>
+    <!-- cards-3 -->
+    <div class="cards">
+
+        <div class="image">
+            <img src="https://th.bing.com/th/id/OIP.hyxS_LeEegO4-JqXh6u_CAHaHa?w=198&h=199&c=7&r=0&o=5&pid=1.7">
+        </div>
+        <div class="title ">
+            <h1>Dosa</h1>
+
+        </div>
+        <div class="des ">
+            <p>Dosa only at ₹89</p><br>
+            <button>Buy Now</button>
+            <button class="cart-increment">Add to cart</button>
+
+        </div>
+    </div>
+
+    <!-- card-4 -->
+    <div class="cards">
+
+        <div class="image">
+            <img src="https://th.bing.com/th/id/OIP.V6LGmxQMdOCT17MWdNiQegHaFv?w=228&h=180&c=7&r=0&o=5&pid=1.7">
+        </div>
+        <div class="title ">
+            <h1>Noodles</h1>
+
+        </div>
+        <div class="des ">
+            <p>Noodles only at ₹79</p><br>
+            <button>Buy Now</button>
+            <button class="cart-increment">Add to cart</button>
+
+        </div>
+    </div>
+    <!-- card-5 -->
+    <div class="cards">
+
+        <div class="image">
+            <img src="https://th.bing.com/th/id/OIP.h-VwXGBLd_S0QGtX2PCNJwHaE8?w=295&h=196&c=7&r=0&o=5&pid=1.7">
+        </div>
+        <div class="title ">
+            <h1>Idly</h1>
+
+        </div>
+        <div class="des ">
+            <p>Idly only at ₹49</p><br>
+            <button>Buy Now</button>
+            <button class="cart-increment">Add to cart</button>
+
+        </div>
+    </div>
+    <!-- card-6 -->
+    <div class="cards">
+
+        <div class="image">
+            <img src="https://th.bing.com/th/id/OIP.-7rXBmrI7temRPCUr3adYQEzDL?w=255&h=180&c=7&r=0&o=5&pid=1.7">
+        </div>
+        <div class="title ">
+            <h1>Sandwich</h1>
+
+        </div>
+        <div class="des ">
+            <p>Sandwich only at ₹49</p><br>
+            <button>Buy Now</button>
+            <button>Add to cart</button>
+
+        </div></div>
+    <footer>
+        <p>Indian Railways &copy; managed by government of india</p>
+    </footer>
+</body>
+</html>
